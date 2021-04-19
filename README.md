@@ -22,3 +22,20 @@ Doing variance analysis on a per lot basis, we see that lot3 is over the design 
 ![MPG Prediction by Linear Regression](images/lot_summary.png)
 
 
+## T-Tests on Suspension Coils
+
+There is evidence that Lot 2 is different from the population based on the p-value of .347.  The other two lots have a higher p-value signifying that there is not much difference from the population mean.
+
+
+## Study Design: MechaCar vs Competition
+
+- What metric or metrics are you going to test?
+  I would compare the amenities that competitors are offering and resale values after a certain amount of years.  How does it hold its value after 3, 4, 5 years.  I would also use the type of engine fuel and warranties offered.
+- What is the null hypothesis or alternative hypothesis?
+  Null Hypothesis (Ho): MechaCar return of investment is greater than that of their competitors.
+  Alternative Hypothesis (Ha): MechaCar return of investment is not greater than that of their competitors..
+- What statistical test would you use to test the hypothesis? And why?
+ I would use a t-test to see the difference between the competitors and MechaCar data to determine if MechaCar is inline with the correct pricing model.
+- What data is needed to run the statistical test?
+  I would use a multiple linear regression method to test several factor and find out the correlation of these factors agains the selling price.  
+
